@@ -10,8 +10,8 @@ I work on magnetic-confinement fusion: why tokamak plasmas fall apart, and the s
 <tr>
 <td width="50%" valign="top">
 <h3>🔬 <a href="https://github.com/VEST-Tokamak/vaft">VAFT</a></h3>
-<img src="https://raw.githubusercontent.com/VEST-Tokamak/vaft/main/workflow/automatic_pipeline_3_data_summary/stability_limit.png" width="100%" alt="VEST stability limits" />
-<p>Analysis toolkit for <b>VEST</b>, SNU's spherical tokamak. Point it at a range of experimental shots and it handles the post-processing on top of an IMAS-HSDS database — then tells you which ones sat outside the stability limits.</p>
+<img src="https://raw.githubusercontent.com/jaesun57/jaesun57/main/assets/vest_platform.png" width="100%" alt="VEST Data Analysis Platform" />
+<p>Analysis toolkit for <b>VEST</b>, SNU's spherical tokamak — and the data platform around it. Diagnostics land in an OMAS-HSDS database as one file per shot; from there a couple of lines of Python pull a shot back out, and the same store feeds EFIT/CHEASE equilibria and DCON/RDCON stability runs.</p>
 </td>
 <td width="50%" valign="top">
 <h3>🌀 GPEC reconstruction</h3>
