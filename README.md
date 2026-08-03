@@ -14,9 +14,9 @@ I work on magnetic-confinement fusion: why tokamak plasmas fall apart, and the s
 <p>Analysis toolkit for <b>VEST</b>, SNU's spherical tokamak. Point it at a range of experimental shots and it handles the post-processing on top of an IMAS-HSDS database — then tells you which ones sat outside the stability limits.</p>
 </td>
 <td width="50%" valign="top">
-<h3>🌀 <a href="https://github.com/PrincetonUniversity/GPEC">GPEC reconstruction</a></h3>
+<h3>🌀 GPEC reconstruction</h3>
 <img src="https://raw.githubusercontent.com/jaesun57/jaesun57/main/assets/qvsc_n1.png" width="100%" alt="Normal effective current for Q vs C" />
-<p>Energy-principle decomposition inside the <b>General Perturbed Equilibrium Code</b>. The effective field <b>C</b> = δ<b>B</b> + (ξ·n̂)(μ₀<b>j</b>×n̂) turns out not to be bookkeeping — it's the real field once you correct the frame to the perturbed surface. Test it by asking whether it pierces the flux surface: bare δ<b>B</b> does, <b>C</b> doesn't, and the gap is nine orders of magnitude.</p>
+<p>Energy-principle decomposition inside the <b>General Perturbed Equilibrium Code</b> — <a href="https://github.com/PrincetonUniversity/GPEC">Fortran</a> · <a href="https://github.com/OpenFUSIONToolkit/GPEC">Julia</a>. The effective field <b>C</b> = δ<b>B</b> + (ξ·n̂)(μ₀<b>j</b>×n̂) turns out not to be bookkeeping — it's the real field once you correct the frame to the perturbed surface. Test it by asking whether it pierces the flux surface: bare δ<b>B</b> does, <b>C</b> doesn't, and the gap is nine orders of magnitude.</p>
 </td>
 </tr>
 <tr>
