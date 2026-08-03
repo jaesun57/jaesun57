@@ -4,14 +4,14 @@ I'm headed to **Columbia** this fall to start an M.S./Ph.D. in Applied Physics �
 
 I work on magnetic-confinement fusion: why tokamak plasmas fall apart, and the software that makes studying them reproducible. These days that means kinetic MHD stability of oddly-shaped plasmas, and a fair amount of database plumbing.
 
-## 🚀 What I'm building
+## 🚀 What I've built and am building
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <h3>🔬 <a href="https://github.com/VEST-Tokamak/vaft">VAFT</a></h3>
 <img src="https://raw.githubusercontent.com/jaesun57/jaesun57/main/assets/vest_platform.png" width="100%" alt="VEST Data Analysis Platform" />
-<p>Analysis toolkit for <b>VEST</b>, SNU's spherical tokamak — and the data platform around it. Diagnostics land in an OMAS-HSDS database as one file per shot; from there a couple of lines of Python pull a shot back out, and the same store feeds EFIT/CHEASE equilibria and DCON/RDCON stability runs.</p>
+<p>Analysis toolkit for <b>VEST</b>, SNU's spherical tokamak — and the data platform around it. Diagnostics land in an OMAS-HSDS database, and from there the modelling runs itself: EFIT/CHEASE equilibria and DCON/RDCON stability, automated across the shot archive. Running it end to end turned up something I liked — VEST tends to be limited by current-driven instabilities rather than by pressure.</p>
 </td>
 <td width="50%" valign="top">
 <h3>🌀 GPEC reconstruction</h3>
