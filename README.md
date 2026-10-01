@@ -23,7 +23,7 @@ I work on magnetic-confinement fusion: why tokamak plasmas fall apart, and the s
 <td width="50%" valign="top">
 <h3>🏎️ <a href="https://github.com/jaesun57/F1Apex">F1Apex</a></h3>
 <img src="https://raw.githubusercontent.com/jaesun57/F1Apex/main/docs/img/car01/streamlines_hero.png" width="100%" alt="F1Apex streamlines" />
-<p>[Not fully implemented!]CFD-backed F1 front wing aerodynamics — parametric geometry, OpenFOAM RANS, and an interactive aero map. Turns out tokamaks aren't the only thing where the shape decides whether it works.</p>
+<p>[Not fully implemented!]CFD-backed F1 front wing aerodynamics — parametric geometry, OpenFOAM RANS, and an interactive aero map. </p>
 </td>
 <td width="50%" valign="top"></td>
 </tr>
